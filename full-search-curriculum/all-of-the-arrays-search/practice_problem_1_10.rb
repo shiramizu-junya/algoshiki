@@ -28,7 +28,7 @@ puts arr.index(arr.max) + 1
 # 別解_2
 #########################
 gets
-s = gets.split.map(&:to_i)
+s = gets.split.map(&:to_i) # => [1, 5, 2, 9, 6, 4, 9, 3, 4, 9]
 p s.max_by{ |i| s.count(i) }
 
 # instance method Enumerable#max_by
