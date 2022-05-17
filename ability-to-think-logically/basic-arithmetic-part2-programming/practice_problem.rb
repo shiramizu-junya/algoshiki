@@ -43,9 +43,11 @@ p (a+k-1)/k*k
 n, k = gets.split.map(&:to_i)
 p (1..n).count{ |i| i % k == 0 }
 
-
-
-
+#########################
+# 練習問題９
+#########################
+a, b, k = gets.split.map(&:to_i)
+p (a..b).count{ |i| i % k == 0 }
 
 
 
